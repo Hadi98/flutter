@@ -28,10 +28,10 @@ class SongsList extends StatelessWidget {
                 borderRadius: BorderRadius.circular(10),
               ),
               child: Stack(
-                alignment: Alignment.bottomLeft,
+                alignment: Alignment.bottomCenter, // Align the text at the bottom center
                 children: [
                   Container(
-                    width: double.infinity,
+                    width: 300,
                     height: 250,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(10),
@@ -53,6 +53,7 @@ class SongsList extends StatelessWidget {
                     ),
                   ),
                   Container(
+                    width: 300, // Set the width to match the image container
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.only(
                         bottomLeft: Radius.circular(10),
